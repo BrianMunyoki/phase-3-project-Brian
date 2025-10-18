@@ -9,4 +9,27 @@ class Student:
         CURSOR.execute(
             "INSERT INTO students (name, age, email) VALUES(?,?,?)",
         )
-        
+        CONN.commit()
+        self.id=CURSOR.lastrowid
+        return self
+    @classmethod
+    def all(cls):
+        """Return all students as student objects."""
+        row=CURSOR.execute("SELECT*FROM students").fetchall()
+        return [cls(id=row[],name=row[1],age=row[2],email=row[3] for row in rows)]
+    def update(self):
+        """Update an existing student's data."""
+        if not self.id:
+            raise ValueError("Student must exist in the database before update.")
+        CURSOR.execute(
+            "UPDATE students SET name=?,age=?,email=? WHERE id=?",
+            (self.name, self,age,self.email,self.id)
+        )
+        CONN.commit()
+        return self
+    def delete(self):
+        """Delete a student from the database."""
+        if not self.id:
+            raise ValueError("Student must exist in the database beore delete.")
+        CURSOR.execute("DELETE FROM students WHERE id=?", (self.id))
+        CONN.commit()

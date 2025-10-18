@@ -4,4 +4,4 @@ from lib.cli import main_menu
 
 if __name__=="__main__":
     create_tables()
-    print("Database and tables created successfully!")
+
