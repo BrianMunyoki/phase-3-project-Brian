@@ -1,4 +1,5 @@
 from lib.database import CURSOR, CONN
+from lib.database import CURSOR, CONN
 class Student:
     def __init__(self, name, age, email, id=None):
         self.id=id
