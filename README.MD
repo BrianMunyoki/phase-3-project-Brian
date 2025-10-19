@@ -103,7 +103,7 @@ phase-3-project-Brian/
 ```bash
 git clone https://github.com/your-username/phase-3-project-Brian.git
 cd phase-3-project-Brian
-
+```
 ### 2️ Create and activate a virtual environment
 
 Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python -m venv venv  source venv/bin/activate     # On Mac/Linux  venv\Scripts\activate        # On Windows   `
