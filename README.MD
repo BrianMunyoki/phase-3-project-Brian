@@ -44,20 +44,20 @@ phase-3-project-Brian/
 
 ---
 
-## 💡 Features
+##  Features
 
-### 👩‍🎓 Student Management
+###  Student Management
 
 - Add a new student with name, age, and email.
 - View all registered students.
 - Update or delete existing students.
 
-### 📚 Course Management
+###  Course Management
 
 - Add new courses with name, code, and instructor.
 - View, update, or delete courses.
 
-### 🔗 Enrollment Management
+###  Enrollment Management
 
 - Enroll students into one or more courses.
 - View all courses a student is enrolled in.
@@ -66,7 +66,7 @@ phase-3-project-Brian/
 
 ---
 
-## 🧩 Database Design
+##  Database Design
 
 ### **students**
 
@@ -96,7 +96,7 @@ phase-3-project-Brian/
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1️ Clone the repository
 
@@ -105,9 +105,7 @@ git clone https://github.com/your-username/phase-3-project-Brian.git
 cd phase-3-project-Brian
 ```
 ### 2️ Create and activate a virtual environment
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python -m venv venv  source venv/bin/activate     # On Mac/Linux  venv\Scripts\activate        # On Windows   `
-
+python -m venv venv  source venv/bin/activate   
 ### 3️ Run the program
 
 Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python main.py   `
@@ -115,7 +113,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 ### 4 Follow the menu prompts to interact with the system.
 
 Learning Objectives
-----------------------
+
 
 This project demonstrates your ability to:
 
@@ -138,5 +136,6 @@ This project was created for educational purposes as part of the **Phase 3 Pytho
 Author
 ---------
 
-**Brian Muema**Python Developer & Student📧 brian.muema@example.com GitHub: [github.com/your-username](https://github.com/your-username)
+**Brian Muema**Python Developer & Student brianmunyoki168@gmail.com GitHub: [github.com/brian-munyoki](https://github.com/brian-munyoki)
 ```
+
